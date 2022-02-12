@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.containor{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    padding-top: 5vh;
+    background: url("login.jpg");
+    background-position: center;
+}
+.cv{
+    width: 40vw;
+    height: 85vh;
+    border-radius: 1vw;
+    background-color: rgb(0, 68, 255);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+#btn{
+    width: 100%;
+    padding: 0.5vw;
+    font-size: large;
+    color: lightblue;
+    background-color: blue;
+    font-weight: bold;
+    margin-top: 5vh;
+    border-radius: 1vw
+}
+.players{
+    font-size: 2vw;
+    margin: 1vh 1vw;
+}
+img{
+    width: 22vw;
+    height: 40vh;
+}
+
+@media only screen and (max-width:600px) {
+    
+.cv{
+    width: 60vw;
+    height: 50vh;
+}
+
+.players{
+    font-size: 2vw;
+    margin: 1vh 1vw;
+}
+img{
+    width: 22vw;
+    height: 25vh;
+}
+}
